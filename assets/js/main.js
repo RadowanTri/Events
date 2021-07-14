@@ -1,6 +1,7 @@
 $(document).ready(function($){
     "use strict";
 
+
   //==============================
   // smooth scroll
   //==============================
@@ -18,7 +19,7 @@ $(".popular-carousel").owlCarousel({
       items:1
     },
     600:{
-      items:2
+      items:3
     },
     1000:{
       items:3
@@ -46,22 +47,22 @@ $(".hero-carousel").owlCarousel({
 
 
 
-       // Magnific popup
-       $('.videos-icon').magnificPopup({
-        type:'iframe',
-        iframe: {
-          patterns: {
-            youtube: {
-              index: 'youtube.com/', 
+// Magnific popup
+$('.videos-icon').magnificPopup({
+type:'iframe',
+iframe: {
+patterns: {
+  youtube: {
+    index: 'youtube.com/', 
 
-              id: 'v=', 
-              src: 'http://www.youtube.com/embed/%id%?autoplay=1' 
-            }
+    id: 'v=', 
+    src: 'http://www.youtube.com/embed/%id%?autoplay=1' 
+  }
 
-          },
-          srcAction: 'iframe_src',
-        }
-      });
+},
+srcAction: 'iframe_src',
+}
+});
 
   // $('.count').each(function () {
   //     $(this).prop('Counter',0).animate({

@@ -507,7 +507,7 @@ p {
 }
 
 .pl-20{
-  leftg-bottom:20px;
+  padding-left:20px;
 }
 .pl-25{
   padding-left: 25px;
@@ -911,6 +911,8 @@ p {
   padding: 15px 20px;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
 
 }
 /* .feature-img{
@@ -921,18 +923,12 @@ p {
 } */
 .popular-events .feature-img {
     order: -1;
+    margin-top: -50px;
 }
 
-.popular-events .feature-wrapper .title{
-
-}
 .feature-items {
   padding-top: 40px;
   padding-bottom: 20px;
-  position: relative;
-  z-index: 9999;
-  height: 100%;
-  width: 100%;
 }
 .popular-carousel{
   position: relative;
@@ -951,7 +947,4 @@ p {
 .popular-carousel.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
   background: #000000;
   width: 15px;
-}
-.popular-carousel.owl-carousel .owl-item img {
-  margin-top: -60px;
 }
