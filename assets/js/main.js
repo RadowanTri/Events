@@ -6,10 +6,8 @@ $(document).ready(function($){
   //==============================
   $("[data-background").each(function(){
     $(this).css("background-image", "url(" + $(this).attr("data-background")+")")
- })
-//  $("button").on('click', function() {
-//   $(".header-sm-area").toggleClass('sm-nav');
-// });
+ });
+
 $(".popular-carousel").owlCarousel({
   loop:true,
   margin:15,
@@ -81,22 +79,22 @@ $(".hero-carousel").owlCarousel({
       time: 1000
     });
            
-          $('.testimonial-active').slick({
-           slidesToShow: 1,
-           slidesToScroll: 1,
-           arrows: false,
-           fade: true,
-           asNavFor: '.testimonial-img-active'
-         });
-         $('.testimonial-img-active').slick({
-           slidesToShow: 3,
-           slidesToScroll: 1,
-           asNavFor: '.testimonial-active',
-           dots: true,
-           centerMode: true,
-           focusOnSelect: true,
-           centerPadding:'0px',
-           arrows:false,
-           dots:false,
-         });
+    $('.testimonial-active').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.testimonial-img-active'
+    });
+    $('.testimonial-img-active').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.testimonial-active',
+      dots: true,
+      centerMode: true,
+      focusOnSelect: true,
+      centerPadding:'0px',
+      arrows:false,
+      dots:false,
+    });
 }(jQuery));

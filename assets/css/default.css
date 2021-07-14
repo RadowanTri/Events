@@ -922,7 +922,7 @@ p {
     justify-content: center;
     box-sizing: border-box;
     order: -1;
-    z-index: 3;
+    z-index: 9999;
     margin-top: -60px;
 }
 .popular-events .feature-wrapper .title{
