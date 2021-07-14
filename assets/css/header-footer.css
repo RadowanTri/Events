@@ -156,7 +156,7 @@
     width: 100%;
   }
 
-  .sm-nav {
+  /* .sm-nav {
     position: absolute;
     left: 0;
     top: 18%;
@@ -164,7 +164,7 @@
     z-index: -1;
     width: 100%;
     height: 82%;
-  }
+  } */
 
   .header-area {
     border-top: 0px transparent;
@@ -188,18 +188,18 @@
   }
 
   .top-search .form-control {
-    border-color: #fff;
+    border-color: #000;
     background: transparent;
-    color: #fff;
+    color: #000;
   }
 
   .top-search .fas.fa-search,
   .top-search .form-control::placeholder {
-    color: #fff;
+    color: #000;
   }
 
   .top-search .form-control:focus {
-    border-color: #fff;
+    border-color: #000C63;
   }
 
 
@@ -212,6 +212,9 @@
   .header-area .navbar .navbar-nav li:hover {
     background: #000C63;
   }
+   .header-area .navbar .navbar-nav li:hover a{
+     color: #fff;
+   }
   .header-area .container {
     padding: 0px
   }
@@ -225,7 +228,7 @@
 }
 .language .login-btn{
   margin-top: 10px;
-  background: transparent;
+  background: #000C63;
   border: 1px solid #fff;
   color: #fff;
 }

@@ -7,8 +7,25 @@ $(document).ready(function($){
   $("[data-background").each(function(){
     $(this).css("background-image", "url(" + $(this).attr("data-background")+")")
  })
- $("button").on('click', function() {
-  $(".header-sm-area").toggleClass('sm-nav');
+//  $("button").on('click', function() {
+//   $(".header-sm-area").toggleClass('sm-nav');
+// });
+$(".popular-carousel").owlCarousel({
+  loop:true,
+  margin:15,
+  nav:false,
+  dots:true,
+  responsive:{
+    0:{
+      items:1
+    },
+    600:{
+      items:2
+    },
+    1000:{
+      items:3
+    }
+  }
 });
 
 $(".hero-carousel").owlCarousel({
@@ -28,6 +45,8 @@ $(".hero-carousel").owlCarousel({
     }
   }
 });
+
+
 
        // Magnific popup
        $('.videos-icon').magnificPopup({
