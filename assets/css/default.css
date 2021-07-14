@@ -918,19 +918,17 @@ p {
   max-width: 25%;
 } */
 .popular-events .feature-img {
-    position: relative;
-    justify-content: center;
-    box-sizing: border-box;
     order: -1;
-    z-index: 9999;
-    margin-top: -60px;
 }
+
 .popular-events .feature-wrapper .title{
 
 }
 .feature-items {
   padding-top: 40px;
   padding-bottom: 20px;
+  position: relative;
+  z-index: 9999;
 }
 .popular-carousel{
   position: relative;
@@ -949,4 +947,7 @@ p {
 .popular-carousel.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
   background: #000000;
   width: 15px;
+}
+.popular-carousel.owl-carousel .owl-item img {
+  margin-top: -60px;
 }
