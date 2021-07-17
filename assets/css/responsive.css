@@ -15,6 +15,13 @@
 
 
 /* Medium devices (tablets, 768px and up)*/
+@media (min-width: 320px) and (max-width: 991px) {
+    .timeline-heading {
+        width: 60px;
+        height: 60px;
+    }
+
+}
 @media (min-width: 768px) and (max-width: 991px) {
     .feature-area .feature-wrapper {
         margin-left: 10px;
@@ -43,42 +50,66 @@
     .hero-area {
         background-position: inherit;
     }
+     .p-absolute {
+         position: absolute;
+         display: none;
+     }
+     .spotlight-single-quote {
+         padding: 50px;
+     }
+     .ticket-header-tab .nav-item {
+         width: 48%;
+         padding: 0 10px 10px 10px;
+     }
+     .ticket-header-tab .nav-link {
+         height: auto;
+         display: block;
+         text-align: center;
+     }
+     .ticket-header-tab .nav-link.active:before ,
+     .timeline:before,
+     .timeline>li>.timeline-badge {
+         content: '';
+         display: none;
+     }
+     .timeline>li.timeline-inverted>.timeline-panel {
+         float: left;
+     }
+
+     .timeline>li>.timeline-panel {
+         width: 100%;
+     }
+     .timeline>li.timeline-inverted {
+         padding-left: 10px;
+     }
+     .top-stories figure {
+         flex: auto;
+         margin-right: 15px;
+     }
+     .top-stories {
+         padding: 0px 0px;
+         margin-bottom: 10px;
+     }
+     .section-haading {
+         font-size: 25px;
+     }
+     p{
+         font-size: 15px;
+     }
+     .hero-area {
+         height: 50vh;
+     }
+    
 
 }
 
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767px) {}
-
-/* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
-    .hero-area {
-        height:50vh;
+    .ticket-header-tab .nav-item {
+        width: 100%;
     }
-}
-
-
-
-
-
-
-/* Laptop */
-@media (min-width: 1200px) and (max-width: 1499px) {}
-
-/* Normal (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {}
-
-@media only screen and (min-width:320px) and (max-width: 991px) {
+    .title {
+        font-size: 15px;
+        padding: 10px 0px 10px;
+    }
 
 }
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991px) {}
-
-/* small devices (320px)*/
-@media (max-width: 767px) {}
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767px) {}
-
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575px) {}

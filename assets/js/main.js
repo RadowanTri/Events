@@ -14,12 +14,13 @@ $(".popular-carousel").owlCarousel({
   margin:15,
   nav:false,
   dots:true,
+  center:true,
   responsive:{
     0:{
       items:1
     },
     600:{
-      items:3
+      items:1
     },
     1000:{
       items:3
@@ -79,6 +80,33 @@ srcAction: 'iframe_src',
       delay: 50,
       time: 1000
     });
+  $(".spotlight-carousel").owlCarousel({
+   
+     loop:true,
+      margin:15,
+      dots:false,
+          nav:true,
+          navText:["<i class='fas fa-arrow-left'></i>",
+       "<i class='fas fa-arrow-right'></i>"],
+       center: true,
+       items:3,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:1,
+        },
+        1000:{
+            items:3,
+        }
+    }
+
+  }); 
+  
+
+
+  
            
     $('.testimonial-active').slick({
       slidesToShow: 1,

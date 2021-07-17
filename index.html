@@ -1,623 +1,1347 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Events</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <!--=== fontawesome-free-5.15.2 ===-->
-        <link rel="stylesheet" href="assets/css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css">
-        <link href="assets/css/flags.css" rel="stylesheet">
-        <!--=== goole Font ===-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        <!--=== Bootstrap 4 ===-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!--=== Magnific PopUp ===-->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <!--=== Owl carousel 2.3.4===-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-        <!--=== Slick ===-->
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <!--=== Main Css ===-->
-        <link rel="stylesheet" href="assets/css/default.css">
-        <!--=== Main Css ===-->
-        <link rel="stylesheet" href="assets/css/header-footer.css">
-        <!--=== Responsive Css ===-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-    </head>
-    <body>
-        <!-- header-area start -->
-        <header class="header-area">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="nav-logo">
-                        <a href="index.html">
-                            <img src="assets/img/logo/logo.png" alt="">
-                        </a>
-                    </div>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarTogglerDemo02"
-                        aria-controls="navbarTogglerDemo02"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <i class="fas fa-bars"></i>
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <div class="mx-auto">
-                            <form class="d-sm-block d-lg-none mlr-15">
-                                <div class="top-search">
-                                    <input class="form-control" placeholder="Search">
-                                    <i class="fas fa-search"></i>
-                                </div>
-                            </form>
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        Home
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Who we are</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">What we do</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact Us</a>
-                                </li>
-                            </ul>
-                            <ul class="language d-sm-block d-lg-none">
-                                <li>
-                                    <select name="" id="">
-                                        <option value="">Language</option>
-                                    </select>
-                                    <li class="login-btn text-center">
-                                        <a href="#">Login</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="nav-right d-none d-lg-flex">
-                                <form class="form-inline">
-                                    <div class="top-search">
-                                        <input class="form-control" placeholder="Search">
-                                        <i class="fas fa-search"></i>
-                                    </div>
-                                </form>
-                                <div class="avator">
-                                    <img src="assets/img/icons/user.png" alt="united">
-                                    <!-- <i class="far fa-user-circle"></i> -->
-                                </div>
-                                <div class="dropdown-wrapper">
-                                    <ul>
-                                        <li class="dropdown">
-                                            <a
-                                                class="dropdown-toggle"
-                                                href="http://example.com"
-                                                id="dropdown09"
-                                                data-toggle="dropdown"
-                                                aria-haspopup="true"
-                                                aria-expanded="false"
-                                            >
-                                                <span class="flag-icon flag-icon-us"></span>
-                                                <i class="fas fa-chevron-up"></i>
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="dropdown09">
-                                                <a class="dropdown-item" href="#fr">
-                                                    <span class="flag-icon flag-icon-fr"></span>
-                                                    French
-                                                </a>
-                                                <a class="dropdown-item" href="#it">
-                                                    <span class="flag-icon flag-icon-it"></span>
-                                                    Italian
-                                                </a>
-                                                <a class="dropdown-item" href="#ru">
-                                                    <span class="flag-icon flag-icon-ru"></span>
-                                                    Russian
-                                                </a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <!--container -->
-                <div class="header-sm-area"></div>
-            </header>
-            <!-- header-area end -->
-            <!-- main-area start -->
-            <main>
-               <!-- hero-carousel start -->
-               <div class="hero-carousel owl-carousel owl-theme pt-80">
-                  <div class="hero-area" data-background="assets/img/slider/slider2.jpg">
-                     <div class="container">
-                           <div class="row">
-                              <div class="col-xl-5 col-lg-6 d-none d-md-block">
-                                 <div class="slider-text">
-                                       <h2 class="slider-title">
-                                          Bangobondhu Time Equality Convention (BTEC)
-                                       </h2>
-                                       <p class="slider-subtitle mt-10 mb-15">16,  Aug, 2021-Rampura, Dhaka-1212</p>
-                                       <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                   ReadMore
-                                                   <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
-                                       </div>
-                                 </div>
-                              </div>
-                              <div class="col-xl-4 col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
-                                 <div class="pop_up_item">
-                                       <a class="videos-icon" href="https://www.youtube.com/watch?v=y0uT4izH8F0">
-                                          <i class="fas fa-play"></i>
-                                       </a>
-                                 </div>
-                              </div>
-                           </div>
-                     </div>
-                  </div><!-- / hero-area  -->
-                  <div class="hero-area" data-background="assets/img/slider/slider.png">
-                     <div class="container">
-                           <div class="row">
-                              <div class="col-xl-5 col-lg-6 d-none d-md-block">
-                                 <div class="slider-text">
-                                       <h2 class="slider-title">
-                                          Bangobondhu Time Equality Convention (BTEC)
-                                       </h2>
-                                       <p class="slider-subtitle mt-10 mb-15">16,  Aug, 2021-Rampura, Dhaka-1212</p>
-                                       <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                   ReadMore
-                                                   <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
-                                       </div>
-                                 </div>
-                              </div>
-                              <div class="col-xl-4 col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
-                                 <div class="pop_up_item">
-                                       <a class="videos-icon" href="https://www.youtube.com/watch?v=y0uT4izH8F0">
-                                          <i class="fas fa-play"></i>
-                                       </a>
-                                 </div>
-                              </div>
-                           </div>
-                     </div>
-                  </div><!-- / hero-area  -->
-                  <div class="hero-area" data-background="assets/img/slider/slider2.jpg">
-                     <div class="container">
-                           <div class="row">
-                              <div class="col-xl-5 col-lg-6 d-none d-md-block">
-                                 <div class="slider-text">
-                                       <h2 class="slider-title">
-                                          Bangobondhu Time Equality Convention (BTEC)
-                                       </h2>
-                                       <p class="slider-subtitle mt-10 mb-15">16,  Aug, 2021-Rampura, Dhaka-1212</p>
-                                       <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                   ReadMore
-                                                   <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
-                                       </div>
-                                 </div>
-                              </div>
-                              <div class="col-xl-4 col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
-                                 <div class="pop_up_item">
-                                       <a class="videos-icon" href="https://www.youtube.com/watch?v=y0uT4izH8F0">
-                                          <i class="fas fa-play"></i>
-                                       </a>
-                                 </div>
-                              </div>
-                           </div>
-                     </div>
-                  </div><!-- / hero-area  -->
-                  <div class="hero-area" data-background="assets/img/slider/slider.png">
-                     <div class="container">
-                           <div class="row">
-                              <div class="col-xl-5 col-lg-6 d-none d-md-block">
-                                 <div class="slider-text">
-                                       <h2 class="slider-title">
-                                          Bangobondhu Time Equality Convention (BTEC)
-                                       </h2>
-                                       <p class="slider-subtitle mt-10 mb-15">16,  Aug, 2021-Rampura, Dhaka-1212</p>
-                                       <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                   ReadMore
-                                                   <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
-                                       </div>
-                                 </div>
-                              </div>
-                              <div class="col-xl-4 col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
-                                 <div class="pop_up_item">
-                                       <a class="videos-icon" href="https://www.youtube.com/watch?v=y0uT4izH8F0">
-                                          <i class="fas fa-play"></i>
-                                       </a>
-                                 </div>
-                              </div>
-                           </div>
-                     </div>
-                  </div><!-- / hero-area  -->
-               </div>
-               <!-- hero-carousel end -->
 
-               <!-- feature-area start -->
-               <section class="feature-area mb-40">
-                  <div class="container">
-                     <div class="row justify-content-center">
-                        <div class="col-xl-11 col-lg-12">
-                           <div class="row justify-content-between feature-parent">
-                              <div class="col-xl-3 col-lg-3 col-md-6">
-                                 <a href="#">
-                                    <div class="feature-wrapper text-center mb-20">
-                                       <div class="feature-img">
-                                          <img src="assets/img/feature/1.png" loading="lazy" >
-                                       </div> 
-                                       <div class="feature-content">
-                                          <h5 class="title">One solution</h5>
-                                          <p>Get superfast support for 24/7 
-                                             from our dedicated staff throughout 
-                                             the world, your satisfaction</p>
-                                       </div>
-                                       <!-- <div class="mt-auto">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Events</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <!--=== fontawesome-free-5.15.2 ===-->
+   <link rel="stylesheet" href="assets/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css">
+   <link href="assets/css/flags.css" rel="stylesheet">
+   <!--=== goole Font ===-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
+   <!--=== Bootstrap 4 ===-->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!--=== Magnific PopUp ===-->
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <!--=== Owl carousel 2.3.4===-->
+   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+   <!--=== Slick ===-->
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <!--=== Main Css ===-->
+   <link rel="stylesheet" href="assets/css/default.css">
+   <!--=== Main Css ===-->
+   <link rel="stylesheet" href="assets/css/header-footer.css">
+   <!--=== Responsive Css ===-->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+   <!-- header-area start -->
+   <header class="header-area">
+      <div class="container">
+         <nav class="navbar navbar-expand-lg">
+            <div class="nav-logo">
+               <a href="index.html">
+                  <img src="assets/img/logo/logo.png" alt="">
+               </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+               aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fas fa-bars"></i>
+               <i class="fas fa-times"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+               <div class="mx-auto">
+                  <form class="d-sm-block d-lg-none mlr-15">
+                     <div class="top-search">
+                        <input class="form-control" placeholder="Search">
+                        <i class="fas fa-search"></i>
+                     </div>
+                  </form>
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">
+                           Home
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Who we are</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">What we do</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                     </li>
+                  </ul>
+                  <ul class="language d-sm-block d-lg-none">
+                     <li>
+                        <select name="" id="">
+                           <option value="">Language</option>
+                        </select>
+                     <li class="login-btn text-center">
+                        <a href="#">Login</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="nav-right d-none d-lg-flex">
+                  <form class="form-inline">
+                     <div class="top-search">
+                        <input class="form-control" placeholder="Search">
+                        <i class="fas fa-search"></i>
+                     </div>
+                  </form>
+                  <div class="avator">
+                     <img src="assets/img/icons/user.png" alt="united">
+                     <!-- <i class="far fa-user-circle"></i> -->
+                  </div>
+                  <div class="dropdown-wrapper">
+                     <ul>
+                        <li class="dropdown">
+                           <a class="dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              <span class="flag-icon flag-icon-us"></span>
+                              <i class="fas fa-chevron-up"></i>
+                           </a>
+                           <div class="dropdown-menu" aria-labelledby="dropdown09">
+                              <a class="dropdown-item" href="#fr">
+                                 <span class="flag-icon flag-icon-fr"></span>
+                                 French
+                              </a>
+                              <a class="dropdown-item" href="#it">
+                                 <span class="flag-icon flag-icon-it"></span>
+                                 Italian
+                              </a>
+                              <a class="dropdown-item" href="#ru">
+                                 <span class="flag-icon flag-icon-ru"></span>
+                                 Russian
+                              </a>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!--container -->
+      <div class="header-sm-area"></div>
+   </header>
+   <!-- header-area end -->
+   <!-- main-area start -->
+   <main>
+      <!-- hero-carousel start -->
+      <div class="hero-carousel owl-carousel owl-theme pt-80">
+         <div class="hero-area" data-background="assets/img/slider/slider2.jpg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-5 col-lg-6 d-none d-md-block">
+                     <div class="slider-text">
+                        <h2 class="slider-title">
+                           Bangobondhu Time Equality Convention (BTEC)
+                        </h2>
+                        <p class="slider-subtitle mt-10 mb-15">16, Aug, 2021-Rampura, Dhaka-1212</p>
+                        <div>
+                           <a href="#">
+                              <button class="custom-btn">
+                                 ReadMore
+                                 <i class="fas fa-chevron-right"></i>
+                              </button>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
+                     <div class="pop_up_item">
+                        <a class="videos-icon" href="https://www.youtube.com/watch?v=y0uT4izH8F0">
+                           <i class="fas fa-play"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!-- / hero-area  -->
+         <div class="hero-area" data-background="assets/img/slider/slider.png">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-5 col-lg-6 d-none d-md-block">
+                     <div class="slider-text">
+                        <h2 class="slider-title">
+                           Bangobondhu Time Equality Convention (BTEC)
+                        </h2>
+                        <p class="slider-subtitle mt-10 mb-15">16, Aug, 2021-Rampura, Dhaka-1212</p>
+                        <div>
+                           <a href="#">
+                              <button class="custom-btn">
+                                 ReadMore
+                                 <i class="fas fa-chevron-right"></i>
+                              </button>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
+                     <div class="pop_up_item">
+                        <a class="videos-icon" href="https://www.youtube.com/watch?v=y0uT4izH8F0">
+                           <i class="fas fa-play"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!-- / hero-area  -->
+         <div class="hero-area" data-background="assets/img/slider/slider2.jpg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-5 col-lg-6 d-none d-md-block">
+                     <div class="slider-text">
+                        <h2 class="slider-title">
+                           Bangobondhu Time Equality Convention (BTEC)
+                        </h2>
+                        <p class="slider-subtitle mt-10 mb-15">16, Aug, 2021-Rampura, Dhaka-1212</p>
+                        <div>
+                           <a href="#">
+                              <button class="custom-btn">
+                                 ReadMore
+                                 <i class="fas fa-chevron-right"></i>
+                              </button>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
+                     <div class="pop_up_item">
+                        <a class="videos-icon" href="https://www.youtube.com/watch?v=y0uT4izH8F0">
+                           <i class="fas fa-play"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!-- / hero-area  -->
+         <div class="hero-area" data-background="assets/img/slider/slider.png">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-5 col-lg-6 d-none d-md-block">
+                     <div class="slider-text">
+                        <h2 class="slider-title">
+                           Bangobondhu Time Equality Convention (BTEC)
+                        </h2>
+                        <p class="slider-subtitle mt-10 mb-15">16, Aug, 2021-Rampura, Dhaka-1212</p>
+                        <div>
+                           <a href="#">
+                              <button class="custom-btn">
+                                 ReadMore
+                                 <i class="fas fa-chevron-right"></i>
+                              </button>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
+                     <div class="pop_up_item">
+                        <a class="videos-icon" href="https://www.youtube.com/watch?v=y0uT4izH8F0">
+                           <i class="fas fa-play"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!-- / hero-area  -->
+      </div>
+      <!-- hero-carousel end -->
+
+      <!-- feature-area start -->
+      <section class="feature-area mb-40">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-xl-11 col-lg-12">
+                  <div class="row justify-content-between feature-parent">
+                     <div class="col-xl-3 col-lg-3 col-md-6">
+                        <a href="#">
+                           <div class="feature-wrapper text-center mb-20">
+                              <div class="feature-img">
+                                 <img src="assets/img/feature/1.png" loading="lazy">
+                              </div>
+                              <div class="feature-content">
+                                 <h5 class="title">One solution</h5>
+                                 <p>Get superfast support for 24/7
+                                    from our dedicated staff throughout
+                                    the world, your satisfaction</p>
+                              </div>
+                              <!-- <div class="mt-auto">
                                           <button class="btn">Read More</button>
                                        </div> -->
-                                    </div> <!-- / feature-wrapper -->
-                                 </a>
-                              </div>
-                              <div class="col-xl-3 col-lg-3 col-md-6">
-                                 <a href="#">
-                                    <div class="feature-wrapper text-center mb-20">
-                                       <div class="feature-img">
-                                          <img src="assets/img/feature/2.png" loading="lazy">
-                                       </div> 
-                                       <div class="feature-content">
-                                          <h5 class="title">Superfast Support</h5>
-                                          <p>Get superfast support for 24/7 
-                                             from our dedicated staff throughout 
-                                             the world, your satisfaction
-                                          </p>
-                     
-                                       </div>
-                                    </div> <!-- / feature-wrapper -->
-                                 </a>
-                              </div>
-                              <div class="col-xl-3 col-lg-3 col-md-6">
-                                 <a href="#">
-                                    <div class="feature-wrapper text-center mb-20">
-                                       <div class="feature-img">
-                                          <img src="assets/img/feature/diploma.png" loading="lazy">
-                                       </div> 
-                                       <div class="feature-content">
-                                          <h5 class="title">Certification</h5>
-                                          <p>Get superfast support for 24/7 
-                                             from our dedicated staff throughout 
-                                             the world, your satisfaction
-                                          </p>
-                     
-                                       </div>
-                                    </div> <!-- / feature-wrapper -->
-                                 </a>
-                              </div>
-                              <div class="col-xl-3 col-lg-3 col-md-6">
-                                 <a href="#">
-                                    <div class="feature-wrapper text-center mb-20">
-                                       <div class="feature-img">
-                                          <img src="assets/img/feature/cashless-payment.png" loading="lazy">
-                                       </div> 
-                                       <div class="feature-content">
-                                          <h5 class="title">Online Payment</h5>
-                                          <p>Get superfast support for 24/7 
-                                             from our dedicated staff throughout 
-                                             the world, your satisfaction
-                                          </p>
-                     
-                                       </div>
-                                    </div> <!-- / feature-wrapper -->
-                                 </a>
-                              </div>
-                           </div>
-                        </div>
+                           </div> <!-- / feature-wrapper -->
+                        </a>
                      </div>
-                  </div>
-               </section>
-               <!-- feature-area end -->
-               <!-- popular-events start -->
-               <section class="popular-events  position-relative gray-bg pt-40 pb-40">
-                  <div>
-                     <img src="assets/img/icons/icon-left.png" alt="" class="mt--100 p-absolute abs-1">
-                     <img src="assets/img/icons/icon-bottom.png" alt="" class="p-absolute abs-2">
-                  </div>
-                  
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-xl-6 offset-xl-3">
-                           <div class="text-center ">
-                              <h2 class="section-haading ">Popular Events</h2>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="mt-60">
-                        <div class="col-xl-11 col-lg-12">
-                           
-                           <div class="popular-carousel owl-carousel owl-theme">
+                     <div class="col-xl-3 col-lg-3 col-md-6">
+                        <a href="#">
+                           <div class="feature-wrapper text-center mb-20">
+                              <div class="feature-img">
+                                 <img src="assets/img/feature/2.png" loading="lazy">
+                              </div>
+                              <div class="feature-content">
+                                 <h5 class="title">Superfast Support</h5>
+                                 <p>Get superfast support for 24/7
+                                    from our dedicated staff throughout
+                                    the world, your satisfaction
+                                 </p>
 
-                              <div class="feature-items">
-                                
-                                    <div class="feature-wrapper text-center">
+                              </div>
+                           </div> <!-- / feature-wrapper -->
+                        </a>
+                     </div>
+                     <div class="col-xl-3 col-lg-3 col-md-6">
+                        <a href="#">
+                           <div class="feature-wrapper text-center mb-20">
+                              <div class="feature-img">
+                                 <img src="assets/img/feature/diploma.png" loading="lazy">
+                              </div>
+                              <div class="feature-content">
+                                 <h5 class="title">Certification</h5>
+                                 <p>Get superfast support for 24/7
+                                    from our dedicated staff throughout
+                                    the world, your satisfaction
+                                 </p>
+
+                              </div>
+                           </div> <!-- / feature-wrapper -->
+                        </a>
+                     </div>
+                     <div class="col-xl-3 col-lg-3 col-md-6">
+                        <a href="#">
+                           <div class="feature-wrapper text-center mb-20">
+                              <div class="feature-img">
+                                 <img src="assets/img/feature/cashless-payment.png" loading="lazy">
+                              </div>
+                              <div class="feature-content">
+                                 <h5 class="title">Online Payment</h5>
+                                 <p>Get superfast support for 24/7
+                                    from our dedicated staff throughout
+                                    the world, your satisfaction
+                                 </p>
+
+                              </div>
+                           </div> <!-- / feature-wrapper -->
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- feature-area end -->
+      <!-- popular-events start -->
+      <section class="popular-events  position-relative gray-bg pt-40 pb-40">
+         <div>
+            <img src="assets/img/icons/icon-left.png" alt="" class="mt--100 p-absolute abs-1">
+            <img src="assets/img/icons/icon-bottom.png" alt="" class="p-absolute abs-2">
+         </div>
+
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 offset-xl-3">
+                  <div class="text-center ">
+                     <h2 class="section-haading ">Popular Events</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="mt-40">
+               <div class="col-xl-11 col-lg-12">
+
+                  <div class="popular-carousel owl-carousel owl-theme">
+
+                     <div class="feature-items">
+
+                        <div class="feature-wrapper text-center">
+                           <div class="feature-content">
+                              <div class="location d-flex justify-content-between">
+                                 <p>16, Aug, 2021</p>
+                                 <p>Rampura, Dhaka-1212</p>
+                              </div>
+                              <h5 class="title">Bangobondhu Time
+                                 Equality Convention (BTEC)</h5>
+                              <div>
+                                 <a href="#">
+                                    <button class="custom-btn">
+                                       ReadMore
+                                       <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                 </a>
+                              </div>
+
+                           </div>
+                           <div class="feature-img">
+                              <img src="assets/img/events/event1.png" loading="lazy">
+                           </div>
+                        </div> <!-- / feature-wrapper -->
+
+
+                     </div>
+                     <div class="feature-items">
+
+                        <div class="feature-wrapper text-center">
+                           <div class="feature-content">
+                              <div class="location d-flex justify-content-between">
+                                 <p>16, Aug, 2021</p>
+                                 <p>Rampura, Dhaka-1212</p>
+                              </div>
+                              <h5 class="title">Bangobondhu Time
+                                 Equality Convention (BTEC)</h5>
+                              <div>
+                                 <a href="#">
+                                    <button class="custom-btn">
+                                       ReadMore
+                                       <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                 </a>
+                              </div>
+
+                           </div>
+                           <div class="feature-img">
+                              <img src="assets/img/events/event1.png" loading="lazy">
+                           </div>
+                        </div> <!-- / feature-wrapper -->
+
+
+                     </div>
+                     <div class="feature-items">
+
+                        <div class="feature-wrapper text-center">
+                           <div class="feature-content">
+                              <div class="location d-flex justify-content-between">
+                                 <p>16, Aug, 2021</p>
+                                 <p>Rampura, Dhaka-1212</p>
+                              </div>
+                              <h5 class="title">Bangobondhu Time
+                                 Equality Convention (BTEC)</h5>
+                              <div>
+                                 <a href="#">
+                                    <button class="custom-btn">
+                                       ReadMore
+                                       <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                 </a>
+                              </div>
+
+                           </div>
+                           <div class="feature-img">
+                              <img src="assets/img/events/event1.png" loading="lazy">
+                           </div>
+                        </div> <!-- / feature-wrapper -->
+
+
+                     </div>
+                     <div class="feature-items">
+
+                        <div class="feature-wrapper text-center">
+                           <div class="feature-content">
+                              <div class="location d-flex justify-content-between">
+                                 <p>16, Aug, 2021</p>
+                                 <p>Rampura, Dhaka-1212</p>
+                              </div>
+                              <h5 class="title">Bangobondhu Time
+                                 Equality Convention (BTEC)</h5>
+                              <div>
+                                 <a href="#">
+                                    <button class="custom-btn">
+                                       ReadMore
+                                       <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                 </a>
+                              </div>
+
+                           </div>
+                           <div class="feature-img">
+                              <img src="assets/img/events/event1.png" loading="lazy">
+                           </div>
+                        </div> <!-- / feature-wrapper -->
+
+
+                     </div>
+                     <div class="feature-items">
+
+                        <div class="feature-wrapper text-center">
+                           <div class="feature-content">
+                              <div class="location d-flex justify-content-between">
+                                 <p>16, Aug, 2021</p>
+                                 <p>Rampura, Dhaka-1212</p>
+                              </div>
+                              <h5 class="title">Bangobondhu Time
+                                 Equality Convention (BTEC)</h5>
+                              <div>
+                                 <a href="#">
+                                    <button class="custom-btn">
+                                       ReadMore
+                                       <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                 </a>
+                              </div>
+
+                           </div>
+                           <div class="feature-img">
+                              <img src="assets/img/events/event1.png" loading="lazy">
+                           </div>
+                        </div> <!-- / feature-wrapper -->
+
+
+                     </div>
+                     <div class="feature-items">
+
+                        <div class="feature-wrapper text-center">
+                           <div class="feature-content">
+                              <div class="location d-flex justify-content-between">
+                                 <p>16, Aug, 2021</p>
+                                 <p>Rampura, Dhaka-1212</p>
+                              </div>
+                              <h5 class="title">Bangobondhu Time
+                                 Equality Convention (BTEC)</h5>
+                              <div>
+                                 <a href="#">
+                                    <button class="custom-btn">
+                                       ReadMore
+                                       <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                 </a>
+                              </div>
+
+                           </div>
+                           <div class="feature-img">
+                              <img src="assets/img/events/event1.png" loading="lazy">
+                           </div>
+                        </div> <!-- / feature-wrapper -->
+
+
+                     </div>
+                     <div class="feature-items">
+
+                        <div class="feature-wrapper text-center">
+                           <div class="feature-content">
+                              <div class="location d-flex justify-content-between">
+                                 <p>16, Aug, 2021</p>
+                                 <p>Rampura, Dhaka-1212</p>
+                              </div>
+                              <h5 class="title">Bangobondhu Time
+                                 Equality Convention (BTEC)</h5>
+                              <div>
+                                 <a href="#">
+                                    <button class="custom-btn">
+                                       ReadMore
+                                       <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                 </a>
+                              </div>
+
+                           </div>
+                           <div class="feature-img">
+                              <img src="assets/img/events/event1.png" loading="lazy">
+                           </div>
+                        </div> <!-- / feature-wrapper -->
+
+
+                     </div>
+                     <div class="feature-items">
+
+                        <div class="feature-wrapper text-center">
+                           <div class="feature-content">
+                              <div class="location d-flex justify-content-between">
+                                 <p>16, Aug, 2021</p>
+                                 <p>Rampura, Dhaka-1212</p>
+                              </div>
+                              <h5 class="title">Bangobondhu Time
+                                 Equality Convention (BTEC)</h5>
+                              <div>
+                                 <a href="#">
+                                    <button class="custom-btn">
+                                       ReadMore
+                                       <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                 </a>
+                              </div>
+
+                           </div>
+                           <div class="feature-img">
+                              <img src="assets/img/events/event1.png" loading="lazy">
+                           </div>
+                        </div> <!-- / feature-wrapper -->
+
+
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+
+
+         </div>
+      </section>
+      <!-- popular-events end -->
+
+      <!--====== spotlight start ======-->
+      <section class="spotlight-area position-relative gray-bg pt-40 pb-40">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 offset-xl-3">
+                  <div class="text-center ">
+                     <h2 class="section-haading ">In the Spotlight</h2>
+                  </div>
+               </div>
+            </div>
+
+            <div class="mt-40">
+
+               <div class="spotlight-carousel owl-carousel owl-theme ">
+
+                  <div class="spotlight-single">
+                     <div class="spotlight-single-quote" data-background="assets/img/events/spotlight.png">
+                        <div class="feature-content">
+                           <div class="location ">
+                              <p>16, Aug, 2021</p>
+                              <p>Rampura, Dhaka-1212</p>
+                           </div>
+                           <h5 class="title">Bangobondhu Time
+                              Equality Convention (BTEC)</h5>
+                           <div>
+                              <a href="#">
+                                 <button class="custom-btn">
+                                    ReadMore
+                                    <i class="fas fa-chevron-right"></i>
+                                 </button>
+                              </a>
+                           </div>
+
+                        </div> <!-- / feature-wrapper -->
+                     </div><!-- /. spotlight-single-quote -->
+                  </div><!-- /. spotlight-single -->
+                  <div class="spotlight-single text-center">
+                     <div class="spotlight-single-quote" data-background="assets/img/events/spotlight.png">
+                        <div class="feature-content">
+                           <div class="location ">
+                              <p>16, Aug, 2021</p>
+                              <p>Rampura, Dhaka-1212</p>
+                           </div>
+                           <h5 class="title">Bangobondhu Time
+                              Equality Convention (BTEC)</h5>
+                           <div>
+                              <a href="#">
+                                 <button class="custom-btn">
+                                    ReadMore
+                                    <i class="fas fa-chevron-right"></i>
+                                 </button>
+                              </a>
+                           </div>
+
+                        </div> <!-- / feature-wrapper -->
+                     </div><!-- /. spotlight-single-quote -->
+
+                  </div><!-- /. spotlight-single -->
+                  <div class="spotlight-single text-center">
+                     <div class="spotlight-single-quote" data-background="assets/img/events/spotlight.png">
+                        <div class="feature-content">
+                           <div class="location ">
+                              <p>16, Aug, 2021</p>
+                              <p>Rampura, Dhaka-1212</p>
+                           </div>
+                           <h5 class="title">Bangobondhu Time
+                              Equality Convention (BTEC)</h5>
+                           <div>
+                              <a href="#">
+                                 <button class="custom-btn">
+                                    ReadMore
+                                    <i class="fas fa-chevron-right"></i>
+                                 </button>
+                              </a>
+                           </div>
+
+                        </div> <!-- / feature-wrapper -->
+                     </div><!-- /. spotlight-single-quote -->
+
+                  </div><!-- /. spotlight-single -->
+                  <div class="spotlight-single text-center">
+                     <div class="spotlight-single-quote" data-background="assets/img/events/spotlight.png">
+                        <div class="feature-content">
+                           <div class="location ">
+                              <p>16, Aug, 2021</p>
+                              <p>Rampura, Dhaka-1212</p>
+                           </div>
+                           <h5 class="title">Bangobondhu Time
+                              Equality Convention (BTEC)</h5>
+                           <div>
+                              <a href="#">
+                                 <button class="custom-btn">
+                                    ReadMore
+                                    <i class="fas fa-chevron-right"></i>
+                                 </button>
+                              </a>
+                           </div>
+
+                        </div> <!-- / feature-wrapper -->
+                     </div><!-- /. spotlight-single-quote -->
+
+                  </div><!-- /. spotlight-single -->
+                  <div class="spotlight-single text-center">
+                     <div class="spotlight-single-quote" data-background="assets/img/events/spotlight.png">
+                        <div class="feature-content">
+                           <div class="location ">
+                              <p>16, Aug, 2021</p>
+                              <p>Rampura, Dhaka-1212</p>
+                           </div>
+                           <h5 class="title">Bangobondhu Time
+                              Equality Convention (BTEC)</h5>
+                           <div>
+                              <a href="#">
+                                 <button class="custom-btn">
+                                    ReadMore
+                                    <i class="fas fa-chevron-right"></i>
+                                 </button>
+                              </a>
+                           </div>
+
+                        </div> <!-- / feature-wrapper -->
+                     </div><!-- /. spotlight-single-quote -->
+
+                  </div><!-- /. spotlight-single -->
+                  <div class="spotlight-single text-center">
+                     <div class="spotlight-single-quote" data-background="assets/img/events/spotlight.png">
+                        <div class="feature-content">
+                           <div class="location ">
+                              <p>16, Aug, 2021</p>
+                              <p>Rampura, Dhaka-1212</p>
+                           </div>
+                           <h5 class="title">Bangobondhu Time
+                              Equality Convention (BTEC)</h5>
+                           <div>
+                              <a href="#">
+                                 <button class="custom-btn">
+                                    ReadMore
+                                    <i class="fas fa-chevron-right"></i>
+                                 </button>
+                              </a>
+                           </div>
+
+                        </div> <!-- / feature-wrapper -->
+                     </div><!-- /. spotlight-single-quote -->
+
+                  </div><!-- /. spotlight-single -->
+                  <div class="spotlight-single text-center">
+                     <div class="spotlight-single-quote" data-background="assets/img/events/spotlight.png">
+                        <div class="feature-content">
+                           <div class="location ">
+                              <p>16, Aug, 2021</p>
+                              <p>Rampura, Dhaka-1212</p>
+                           </div>
+                           <h5 class="title">Bangobondhu Time
+                              Equality Convention (BTEC)</h5>
+                           <div>
+                              <a href="#">
+                                 <button class="custom-btn">
+                                    ReadMore
+                                    <i class="fas fa-chevron-right"></i>
+                                 </button>
+                              </a>
+                           </div>
+
+                        </div> <!-- / feature-wrapper -->
+                     </div><!-- /. spotlight-single-quote -->
+
+                  </div><!-- /. spotlight-single -->
+
+               </div>
+            </div>
+
+         </div>
+      </section>
+      <!--======spotlight end ======-->
+
+      <!-- popular-events start -->
+      <section class="spotlight-area position-relative pt-40 pb-40">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 offset-xl-3">
+                  <div class="text-center ">
+                     <h2 class="section-haading ">In the Spotlight</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="map mt-40">
+            <a href="#">
+               <img src="assets/img/location.png" alt="map">
+            </a>
+         </div>
+      </section>
+      <!-- popular-events end -->
+      <!-- ticket-area start -->
+      <section class="ticket-area position-relative  pt-40 pb-40">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 offset-xl-3">
+                  <div class="text-center ">
+                     <h2 class="section-haading ">Tickets Available</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="ticket-wrapper mt-40">
+               <div class="row">
+                  <div class="col-xl-8 offset-xl-2">
+                     <div class="ticket-tabs">
+                        <ul class="ticket-header-tab nav nav-tabs">
+                           <li class="nav-item "><a href="#running-event" class="nav-link active"
+                                 data-toggle="tab">Already Runing
+                                 Event </a>
+                           </li>
+                           <li class="nav-item "><a href="#upcomming-event" class="nav-link" data-toggle="tab">Up
+                                 coming
+                                 Event </a>
+                           </li>
+                           <li class="nav-item"><a href="#pre-event" class="nav-link" data-toggle="tab">Pre-Booking
+                                 Event </a></li>
+
+                           <li class="nav-item"><a href="#pre-event" class="nav-link" data-toggle="tab">Paid
+                                 Event</a></li>
+
+                        </ul>
+                     </div>
+
+                     <div class="tab-content mt-30">
+                        <div class="tab-pane fade in active show" id="running-event">
+                           <ul class="timeline">
+                              <li class="timeline-inverted">
+                                 <div class="timeline-badge warning">
+                                 </div>
+                                 <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                       <img src="assets/img/icons/schedule.png" alt="">
+                                    </div>
+                                    <div class="timeline-body">
                                        <div class="feature-content">
-                                          <div class="location d-flex justify-content-between">
+                                          <div class="location ">
                                              <p>16, Aug, 2021</p>
                                              <p>Rampura, Dhaka-1212</p>
                                           </div>
                                           <h5 class="title">Bangobondhu Time
                                              Equality Convention (BTEC)</h5>
+                                          <p>Get superfast support for 24/7
+                                             from our dedicated staff throughout
+                                             the world, your satisfaction</p>
                                           <div>
                                              <a href="#">
                                                 <button class="custom-btn">
-                                                   ReadMore
+                                                   Book now
                                                    <i class="fas fa-chevron-right"></i>
                                                 </button>
                                              </a>
                                           </div>
 
                                        </div>
-                                       <div class="feature-img">
-                                          <img src="assets/img/events/event1.png" loading="lazy">
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="timeline-badge warning">
+                                 </div>
+                                 <div class="timeline-panel">
+
+                                    <div class="timeline-panel">
+                                       <div class="timeline-heading">
+                                          <img src="assets/img/icons/schedule.png" alt="">
                                        </div>
-                                    </div> <!-- / feature-wrapper -->
-   
+                                       <div class="timeline-body">
+                                          <div class="feature-content">
+                                             <div class="location ">
+                                                <p>16, Aug, 2021</p>
+                                                <p>Rampura, Dhaka-1212</p>
+                                             </div>
+                                             <h5 class="title">Bangobondhu Time
+                                                Equality Convention (BTEC)</h5>
+                                             <p>Get superfast support for 24/7
+                                                from our dedicated staff throughout
+                                                the world, your satisfaction</p>
+                                             <div>
+                                                <a href="#">
+                                                   <button class="custom-btn">
+                                                      Book now
+                                                      <i class="fas fa-chevron-right"></i>
+                                                   </button>
+                                                </a>
+                                             </div>
+
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="timeline-inverted">
+                                 <div class="timeline-badge warning">
+                                 </div>
+                                 <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                       <img src="assets/img/icons/schedule.png" alt="">
+                                    </div>
+                                    <div class="timeline-body">
+                                       <div class="feature-content">
+                                          <div class="location ">
+                                             <p>16, Aug, 2021</p>
+                                             <p>Rampura, Dhaka-1212</p>
+                                          </div>
+                                          <h5 class="title">Bangobondhu Time
+                                             Equality Convention (BTEC)</h5>
+                                          <p>Get superfast support for 24/7
+                                             from our dedicated staff throughout
+                                             the world, your satisfaction</p>
+                                          <div>
+                                             <a href="#">
+                                                <button class="custom-btn">
+                                                   Book now
+                                                   <i class="fas fa-chevron-right"></i>
+                                                </button>
+                                             </a>
+                                          </div>
+
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="timeline-badge warning">
+                                 </div>
+                                 <div class="timeline-panel">
+
+                                    <div class="timeline-panel">
+                                       <div class="timeline-heading">
+                                          <img src="assets/img/icons/schedule.png" alt="">
+                                       </div>
+                                       <div class="timeline-body">
+                                          <div class="feature-content">
+                                             <div class="location ">
+                                                <p>16, Aug, 2021</p>
+                                                <p>Rampura, Dhaka-1212</p>
+                                             </div>
+                                             <h5 class="title">Bangobondhu Time
+                                                Equality Convention (BTEC)</h5>
+                                             <p>Get superfast support for 24/7
+                                                from our dedicated staff throughout
+                                                the world, your satisfaction</p>
+                                             <div>
+                                                <a href="#">
+                                                   <button class="custom-btn">
+                                                      Book now
+                                                      <i class="fas fa-chevron-right"></i>
+                                                   </button>
+                                                </a>
+                                             </div>
+
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="timeline-inverted">
+                                 <div class="timeline-badge warning">
+                                 </div>
+                                 <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                       <img src="assets/img/icons/schedule.png" alt="">
+                                    </div>
+                                    <div class="timeline-body">
+                                       <div class="feature-content">
+                                          <div class="location ">
+                                             <p>16, Aug, 2021</p>
+                                             <p>Rampura, Dhaka-1212</p>
+                                          </div>
+                                          <h5 class="title">Bangobondhu Time
+                                             Equality Convention (BTEC)</h5>
+                                          <p>Get superfast support for 24/7
+                                             from our dedicated staff throughout
+                                             the world, your satisfaction</p>
+                                          <div>
+                                             <a href="#">
+                                                <button class="custom-btn">
+                                                   Book now
+                                                   <i class="fas fa-chevron-right"></i>
+                                                </button>
+                                             </a>
+                                          </div>
+
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="timeline-badge warning">
+                                 </div>
+                                 <div class="timeline-panel">
+
+                                    <div class="timeline-panel">
+                                       <div class="timeline-heading">
+                                          <img src="assets/img/icons/schedule.png" alt="">
+                                       </div>
+                                       <div class="timeline-body">
+                                          <div class="feature-content">
+                                             <div class="location ">
+                                                <p>16, Aug, 2021</p>
+                                                <p>Rampura, Dhaka-1212</p>
+                                             </div>
+                                             <h5 class="title">Bangobondhu Time
+                                                Equality Convention (BTEC)</h5>
+                                             <p>Get superfast support for 24/7
+                                                from our dedicated staff throughout
+                                                the world, your satisfaction</p>
+                                             <div>
+                                                <a href="#">
+                                                   <button class="custom-btn">
+                                                      Book now
+                                                      <i class="fas fa-chevron-right"></i>
+                                                   </button>
+                                                </a>
+                                             </div>
+
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+
+
+                           </ul>
+
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ticket-area end -->
+      <!-- ticket-area start -->
+      <section class="ticket-area position-relative  pt-40 pb-40">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 offset-xl-3">
+                  <div class="text-center ">
+                     <h2 class="section-haading ">Stories</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="ticket-wrapper mt-40">
+               <div class="row">
+                  <div class="col-xl-12">
+                     <div class="stories-tabs">
+                        <ul class="stories-header-tab nav nav-tabs">
+                           <li class="nav-item "><a href="#stories" class="nav-link active" data-toggle="tab">
+                                
+                                    All Stories
+                                    <i class="fas fa-chevron-right"></i>
                                  
-                              </div>
-                              <div class="feature-items">
+                              </a>
+                           </li>
+                           <div class="ml-auto"></div>
+                           <li class="nav-item "><a href="#recent" class="nav-link" data-toggle="tab">Recent </a>
+                           </li>
+                           <li class="nav-item"><a href="#pre-event" class="nav-link" data-toggle="tab">Popular</a></li>
 
-                                 <div class="feature-wrapper text-center">
-                                    <div class="feature-content">
-                                       <div class="location d-flex justify-content-between">
-                                          <p>16, Aug, 2021</p>
-                                          <p>Rampura, Dhaka-1212</p>
-                                       </div>
-                                       <h5 class="title">Bangobondhu Time
-                                          Equality Convention (BTEC)</h5>
+                        </ul>
+                     </div>
+
+                     <div class="tab-content mt-30">
+                        <div class="stories tab-pane fade in active show" id="stories">
+                           <div class="row">
+                              <div class="col-md-6 mb-3">
+                                 <figure>
+                                    <img src="assets/img/events/Conference-Presentation.png" alt="">
+                                 </figure>
+                                 <div class="feature-content">
+                                    <h5 class="title">Story of Covid-19 situation</h5>
+                                    <div class="location pb-2">
+                                       <p>16, Aug, 2021</p>
+                                    </div>
+
+                                    <p>The whole world, including Bangladesh, is going through a difficult time
+                                       due to the corona epidemic. The first coronavirus patient was identified in
+                                       Bangladesh on March 7, 2020.
+                                       As a densely populated country, Bangladesh lacks awareness. The current
+                                       lockdown situation is that poor families are living in extreme hardship.
+                                       They have no food at home and cannot go to work. The number of such people
+                                       is innumerable. Day laborer Madhu Sudan used to work in a garment factory.
+                                       It was closed three months ago, now there is no work, she can ask someone
+                                       for something out of shame. Many such workers, day laborers, low income
+                                       people are spending their days without eating in the Corona epidemic.</p>
+                                    <div>
+
+                                    </div>
+
+                                 </div>
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                 <a href="#">
+                                    <div class="top-stories">
+                                       <figure>
+                                          <img src="assets/img/events/startup-events-600x321.png" alt="">
+                                       </figure>
                                        <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                ReadMore
-                                                <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
+                                          <div class="feature-content">
+                                             <h5 class="title">Bangobondhu Time
+                                                Equality Convention (TEC)</h5>
+                                             <div class="location">
+                                                <p>16, Aug, 2021</p>
+                                             </div>
+                                          </div>
                                        </div>
-
                                     </div>
-                                    <div class="feature-img">
-                                       <img src="assets/img/events/event1.png" loading="lazy">
-                                    </div>
-                                 </div> <!-- / feature-wrapper -->
-
-
-                              </div>
-                              <div class="feature-items">
-
-                                 <div class="feature-wrapper text-center">
-                                    <div class="feature-content">
-                                       <div class="location d-flex justify-content-between">
-                                          <p>16, Aug, 2021</p>
-                                          <p>Rampura, Dhaka-1212</p>
-                                       </div>
-                                       <h5 class="title">Bangobondhu Time
-                                          Equality Convention (BTEC)</h5>
+                                 </a>
+                                 <a href="#">
+                                    <div class="top-stories">
+                                       <figure>
+                                          <img src="assets/img/events/startup-events-600x321.png" alt="">
+                                       </figure>
                                        <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                ReadMore
-                                                <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
+                                          <div class="feature-content">
+                                             <h5 class="title">Bangobondhu Time
+                                                Equality Convention (TEC)</h5>
+                                             <div class="location">
+                                                <p>16, Aug, 2021</p>
+                                             </div>
+                                          </div>
                                        </div>
-
                                     </div>
-                                    <div class="feature-img">
-                                       <img src="assets/img/events/event1.png" loading="lazy">
-                                    </div>
-                                 </div> <!-- / feature-wrapper -->
-
-
-                              </div>
-                              <div class="feature-items">
-
-                                 <div class="feature-wrapper text-center">
-                                    <div class="feature-content">
-                                       <div class="location d-flex justify-content-between">
-                                          <p>16, Aug, 2021</p>
-                                          <p>Rampura, Dhaka-1212</p>
-                                       </div>
-                                       <h5 class="title">Bangobondhu Time
-                                          Equality Convention (BTEC)</h5>
+                                 </a>
+                                 <a href="#">
+                                    <div class="top-stories">
+                                       <figure>
+                                          <img src="assets/img/events/startup-events-600x321.png" alt="">
+                                       </figure>
                                        <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                ReadMore
-                                                <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
+                                          <div class="feature-content">
+                                             <h5 class="title">Bangobondhu Time
+                                                Equality Convention (TEC)</h5>
+                                             <div class="location">
+                                                <p>16, Aug, 2021</p>
+                                             </div>
+                                          </div>
                                        </div>
-
                                     </div>
-                                    <div class="feature-img">
-                                       <img src="assets/img/events/event1.png" loading="lazy">
-                                    </div>
-                                 </div> <!-- / feature-wrapper -->
-
-
-                              </div>
-                              <div class="feature-items">
-
-                                 <div class="feature-wrapper text-center">
-                                    <div class="feature-content">
-                                       <div class="location d-flex justify-content-between">
-                                          <p>16, Aug, 2021</p>
-                                          <p>Rampura, Dhaka-1212</p>
-                                       </div>
-                                       <h5 class="title">Bangobondhu Time
-                                          Equality Convention (BTEC)</h5>
+                                 </a>
+                                 <a href="#">
+                                    <div class="top-stories">
+                                       <figure>
+                                          <img src="assets/img/events/startup-events-600x321.png" alt="">
+                                       </figure>
                                        <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                ReadMore
-                                                <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
+                                          <div class="feature-content">
+                                             <h5 class="title">Bangobondhu Time
+                                                Equality Convention (TEC)</h5>
+                                             <div class="location">
+                                                <p>16, Aug, 2021</p>
+                                             </div>
+                                          </div>
                                        </div>
-
                                     </div>
-                                    <div class="feature-img">
-                                       <img src="assets/img/events/event1.png" loading="lazy">
-                                    </div>
-                                 </div> <!-- / feature-wrapper -->
-
+                                 </a>
 
                               </div>
-                              <div class="feature-items">
-
-                                 <div class="feature-wrapper text-center">
-                                    <div class="feature-content">
-                                       <div class="location d-flex justify-content-between">
-                                          <p>16, Aug, 2021</p>
-                                          <p>Rampura, Dhaka-1212</p>
-                                       </div>
-                                       <h5 class="title">Bangobondhu Time
-                                          Equality Convention (BTEC)</h5>
-                                       <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                ReadMore
-                                                <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
-                                       </div>
-
-                                    </div>
-                                    <div class="feature-img">
-                                       <img src="assets/img/events/event1.png" loading="lazy">
-                                    </div>
-                                 </div> <!-- / feature-wrapper -->
-
-
-                              </div>
-                              <div class="feature-items">
-
-                                 <div class="feature-wrapper text-center">
-                                    <div class="feature-content">
-                                       <div class="location d-flex justify-content-between">
-                                          <p>16, Aug, 2021</p>
-                                          <p>Rampura, Dhaka-1212</p>
-                                       </div>
-                                       <h5 class="title">Bangobondhu Time
-                                          Equality Convention (BTEC)</h5>
-                                       <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                ReadMore
-                                                <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
-                                       </div>
-
-                                    </div>
-                                    <div class="feature-img">
-                                       <img src="assets/img/events/event1.png" loading="lazy">
-                                    </div>
-                                 </div> <!-- / feature-wrapper -->
-
-
-                              </div>
-                              <div class="feature-items">
-
-                                 <div class="feature-wrapper text-center">
-                                    <div class="feature-content">
-                                       <div class="location d-flex justify-content-between">
-                                          <p>16, Aug, 2021</p>
-                                          <p>Rampura, Dhaka-1212</p>
-                                       </div>
-                                       <h5 class="title">Bangobondhu Time
-                                          Equality Convention (BTEC)</h5>
-                                       <div>
-                                          <a href="#">
-                                             <button class="custom-btn">
-                                                ReadMore
-                                                <i class="fas fa-chevron-right"></i>
-                                             </button>
-                                          </a>
-                                       </div>
-
-                                    </div>
-                                    <div class="feature-img">
-                                       <img src="assets/img/events/event1.png" loading="lazy">
-                                    </div>
-                                 </div> <!-- / feature-wrapper -->
-
-
-                              </div>
-          
                            </div>
+
+
+                        </div>
+                        <div class="stories tab-pane fade in  " id="recent">
+                           <div class="row">
+                              <div class="col-md-6 mb-3">
+                                 <figure>
+                                    <img src="assets/img/events/Conference-Presentation.png" alt="">
+                                 </figure>
+                                 <div class="feature-content">
+                                    <h5 class="title">Story of Covid-19 situation</h5>
+                                    <div class="location pb-2">
+                                       <p>16, Aug, 2021</p>
+                                    </div>
+
+                                    <p>The whole world, including Bangladesh, is going through a difficult time
+                                       due to the corona epidemic. The first coronavirus patient was identified in
+                                       Bangladesh on March 7, 2020.
+                                       As a densely populated country, Bangladesh lacks awareness. The current
+                                       lockdown situation is that poor families are living in extreme hardship.
+                                       They have no food at home and cannot go to work. The number of such people
+                                       is innumerable. Day laborer Madhu Sudan used to work in a garment factory.
+                                       It was closed three months ago, now there is no work, she can ask someone
+                                       for something out of shame. Many such workers, day laborers, low income
+                                       people are spending their days without eating in the Corona epidemic.</p>
+                                    <div>
+
+                                    </div>
+
+                                 </div>
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                 <a href="#">
+                                    <div class="top-stories">
+                                       <figure>
+                                          <img src="assets/img/events/startup-events-600x321.png" alt="">
+                                       </figure>
+                                       <div>
+                                          <div class="feature-content">
+                                             <h5 class="title">Bangobondhu Time
+                                                Equality Convention (TEC)</h5>
+                                             <div class="location">
+                                                <p>16, Aug, 2021</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="#">
+                                    <div class="top-stories">
+                                       <figure>
+                                          <img src="assets/img/events/startup-events-600x321.png" alt="">
+                                       </figure>
+                                       <div>
+                                          <div class="feature-content">
+                                             <h5 class="title">Bangobondhu Time
+                                                Equality Convention (TEC)</h5>
+                                             <div class="location">
+                                                <p>16, Aug, 2021</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </a>
+
+                              </div>
+                           </div>
+
+
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ticket-area end -->
+
+
+   </main>
+   <footer>
+      <div class="footer-area pt-50 pb-50">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="footer-left-content">
+                     <a href="#">
+                        <img src="assets/img/logo/footer-logo.png" alt="footer-logo">
+                     </a>
+                     <div class="py-2">
+                        <p>Get superfast support for 24/7 from our dedicated staff throughout
+                           the world, your satisfaction</p>
+                     </div>
+                     <div class="social-icon">
+                       <a href="#">
+                          <i class="fab fa-facebook-f"></i>
+                       </a>
+                       <a href="#">
+                          <i class="fab fa-twitter"></i>
+                       </a>
+                       <a href="#">
+                          <i class="fab fa-instagram"></i>
+                       </a>
+                       <a href="#">
+                          <i class="fab fa-behance"></i>
+                       </a>
+                       
+
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="g-1fr">
+                     <div class="address-bd">
+                        <div class="d-flex">
+                           <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                           <p>East Rampura, Khilgaon <br>Dhaka-1219</p>
+                        </div>
+                        <div>
+                           <a href="#"><i class="fas fa-phone-volume"></i></a>
+                           <a href="tel:+88 (0) 174 396 6200">+88 (0) 174 396 6200</a>
                         </div>
                      </div>
-                     
+                      <div class="address-bd uk ">
+                         <div class="d-flex">
+                            <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                            <p>United Kingdom <br>189 Foundry Lane <br>Southampton
+                               SO153JZ</p>
+                         </div>
+                         <div>
+                            <a href="#"><i class="fas fa-phone-volume"></i></a>
+                            <a href="tel:+44 (0) 238 052 8262"> +44 (0) 238 052 8262</a>
 
+                         </div>
+                         <div>
+                            <a href="#"><i class="fas fa-phone-volume"></i></a>
+                            <a href="tel:+44 (0) 755 482 3078"> +44 (0) 755 482 3078</a>
+                         </div>
+                      </div>
                   </div>
-               </section>
-               <!-- popular-events end -->
-               <!-- support-area start -->
-               <!-- support-area end -->
-               <!-- support-area start -->
-               <!-- support-area end -->
-            </main>
-            <div class="py-5">
-                <img src="assets/img/icons/icon-left.png" alt="">
-                <p class="pt-150">Lorem ipsum dolor sit amet.</p>
-                <p class="pt-150">Lorem ipsum dolor sit amet.</p>
-                <p class="pt-150">Lorem ipsum dolor sit amet.</p>
+                 
+               </div>
+               <div class="col-md-4">
+                  <div class="g-1fr">
+                     <ul>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#"> Blog</a></li>
+                        <li><a href="#">Add Testimonial</a></li>
+                        <li><a href="#">Become a Partner</a></li>
+                        <li><a href="#">User Manual</a></li>
+                     </ul>
+                     <ul>
+                        <li><a href="#">Collaborators
+                              </a></li>
+                        <li><a href="#"> Image & Media Credits</a></li>
+                        <li><a href="#">Affiliate Websites</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Site Map</a></li>
+                     </ul>
+                  </div>
+               </div>
             </div>
-            <!-- main-area end -->
-            <!-- fotter-area start -->
-            <!-- fotter-area end -->
-            <!--=== All Plugin ===-->
-            <!--============= Jquery-3.6.0 =============-->
-            <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-            <!--=== Bootstrap4 js ===-->
-            <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-            <!--=== magnific-popup ===-->
-            <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
-            <!--=== owl carousel ===-->
-            <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-            <script src="assets/js/jquery.flagstrap.js"></script>
-            <!-- waypoint  4.0-->
-            <script src="assets/js/jquery.waypoints.min.js"></script>
-            <!-- counter -->
-            <script src="assets/js/jquery.counterup.min.js"></script>
-            <script src="assets/js/slick.min.js"></script>
-            <!--=== Main js ===-->
-            <script type="text/javascript" src="assets/js/main.js"></script>
+         </div>
+      </div>
+      <div class="copyright">
+         <div class="container">
+            <div class="text-center">
+               <p>Copyright © 2021 Timerni.com. All Rights Reserved</p>
+            </div>
+         </div>
+      </div>
+   </footer>
+   
+   
+   <!-- main-area end -->
+   <!-- fotter-area start -->
+   <!-- fotter-area end -->
+   <!--=== All Plugin ===-->
+   <!--============= Jquery-3.6.0 =============-->
+   <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+   </script>
+   <!--=== Bootstrap4 js ===-->
+   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+   <!--=== magnific-popup ===-->
+   <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
+   <!--=== owl carousel ===-->
+   <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+   <script src="assets/js/jquery.flagstrap.js"></script>
+   <!-- waypoint  4.0-->
+   <script src="assets/js/jquery.waypoints.min.js"></script>
+   <!-- counter -->
+   <script src="assets/js/jquery.counterup.min.js"></script>
+   <script src="assets/js/slick.min.js"></script>
+   <!--=== Main js ===-->
+   <script type="text/javascript" src="assets/js/main.js"></script>
 
-        </body>
-    </html>
+</body>
+
+</html>
