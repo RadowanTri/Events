@@ -1164,7 +1164,7 @@ p {
   border: 3px solid #5A5297;
   background: #fff;
   border-radius: 50%;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .timeline-heading {
@@ -1268,4 +1268,39 @@ footer a{
 .copyright{
   background: #000C63;
   padding: 15px 0px;
+}
+
+
+
+/* details css */
+.single-text .counter {
+  font-size: 48px;
+  color: #7336f1;
+}
+
+.single-text {
+  position: relative;
+}
+
+.single-text::before {
+  content: "";
+  position: absolute;
+  right: -40px;
+  top: 0px;
+  height: 50px;
+  width: 1px;
+  background: #ddd;
+}
+
+.fact-parent .col-xl-3:last-child .single-text::before {
+  display: none;
+}
+
+.feature-text h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.feature-text p {
+  padding: 0px 35px;
 }
