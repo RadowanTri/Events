@@ -103,27 +103,31 @@ srcAction: 'iframe_src',
     }
 
   }); 
-  
-
-
-  
-           
-    $('.testimonial-active').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.testimonial-img-active'
-    });
-    $('.testimonial-img-active').slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      asNavFor: '.testimonial-active',
-      dots: true,
-      centerMode: true,
-      focusOnSelect: true,
-      centerPadding:'0px',
-      arrows:false,
+   $(".jersey-carousel").owlCarousel({
+   
+     loop:true,
+      margin:15,
       dots:false,
-    });
+          nav:true,
+          navText:["<i class='fas fa-arrow-left'></i>",
+       "<i class='fas fa-arrow-right'></i>"],
+       center: false,
+       items:3,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:1,
+        },
+        1000:{
+            items:3,
+        }
+    }
+
+  }); 
+  
+
+
+  
 }(jQuery));
