@@ -19,6 +19,10 @@ Last change:    24/04/21 [fixed Float bug, vf]
    01. Theme Default CSS
 ==========================================
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   scroll-behavior: smooth;
@@ -1479,16 +1483,20 @@ footer a {
   flex-basis: 20px;
   margin-right: 5px;
 }
-
+.social-icon{
+  display: flex;
+}
 .social-icon a {
   background: #000C63;
   margin-right: 10px;
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  line-height: 2;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
 }
 
 .social-icon a:last-child {
@@ -2002,4 +2010,119 @@ p.about-subtitle {
 .jersey-single {
   padding: 20px 20px;
 
+}
+
+/*
+==========================================
+  details3  Css
+==========================================
+*/
+
+.details-gallery1 {
+  position: relative;
+}
+
+.gallery-content .gallery-title1 {
+  color: #fff;
+  font-size: 35px;
+  padding-right: 8px;
+  margin-top: 15px;
+}
+
+.gallery-img {
+  position: relative;
+}
+.gallery-img img {
+  width: 100%;
+}
+.gallery-content {
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+  z-index: 1;
+}
+
+
+
+.gallery-img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 50%;
+}
+
+.gallery-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  gap: 1vw;
+}
+.gallery-grid .custom-btn {
+  font-size: 14px;
+  padding: 7px 15px;
+}
+
+.gallery-grid .title{
+  color: #fff;
+  font-weight: 500;
+}
+.view-all .custom-btn{
+  font-family: 'Open Sans',sans-serif;
+}
+
+
+.story{
+  background:#F8F9FB;
+}
+.covid-story {
+  padding: 20px 0px;
+}
+h4.covid-title {
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+
+.covid-content {
+  padding-top: 15px;
+}
+
+.covid-history {
+  margin-bottom: 15px;
+}
+
+.covid-history p {
+  color: #000;
+}
+.covid-history p:first-child {
+  padding-bottom: 15px;
+}
+
+/*
+==========================================
+  details4  Css
+==========================================
+*/
+.mast {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.mast span{
+  padding-right: 15px;
+}
+.about-bang-c .social-icon a{
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+}
+
+.about-bang-c .social-icon a:nth-child(2){
+  background: #29C5F6;
+}
+.about-bang-c .social-icon a:nth-child(3) {
+  background: #CA212A;
 }

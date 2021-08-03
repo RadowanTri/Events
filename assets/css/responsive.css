@@ -77,6 +77,9 @@
 
 /* small devices (320px)*/
 @media (max-width: 767px) {
+    .custom-btn{
+        font-size: 14px;
+    }
     .feature-area .feature-wrapper {
         margin-left: 20px;
         margin-right: 20px;
@@ -260,6 +263,18 @@
     .order-details {
         margin: 10px 0px;
     }
+
+
+
+    .gallery-content .gallery-title1,
+    .gallery-grid .title {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .gallery-content .custom-btn {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width:320px) and (max-width: 768px) {}
@@ -293,5 +308,15 @@
     .fact-parent [class^="col-xl-3"] {
         width: 50%;
     }
+    .gallery-grid {
+        grid-template-columns: repeat(1, minmax(0px, 1fr));
+
+    }
+    .gallery-content .gallery-title1,
+    .gallery-grid .title {
+        font-size: 20px;
+    }
+
 
 }
+
