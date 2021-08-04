@@ -261,7 +261,7 @@ p {
 }
 
 .gray-color {
-  color: #DDD;
+  color: #D2d2d2;
 }
 
 /*Defalt Margin and padding*/
@@ -2125,4 +2125,93 @@ h4.covid-title {
 }
 .about-bang-c .social-icon a:nth-child(3) {
   background: #CA212A;
+}
+
+.post-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activity-icons  img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.activity-icons div {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.post-profile-icon {
+  display: flex;
+  align-items: center;
+}
+
+.post-profile-icon img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 30;
+  margin-right: 5px;
+}
+
+.post-row a {
+  color: #9a9a9a;
+}
+.activity-icons .activity-comment{
+  position: relative;
+  padding-left: 20px;
+}
+.activity-icons .activity-comment   img{
+  width: 40px;
+  display: inline-block;
+  margin-left: -15px;
+  margin-right: 0px;
+}
+.post-profile-icon i{
+    color: #D2D2D2;
+    padding-right: 8px;
+}
+.post-profile-icon i:last-child{
+  padding-right: 0px;
+}
+.post-profile-icon i.star-2{
+  color: #FDDC3C;
+}
+
+.commen-box{
+  display: flex;
+  padding-bottom: 15px;
+}
+/* .commen-box.com-f {
+  flex-direction: column;
+} */
+.comment-icons img {
+  width: 55px;
+  max-width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.like-c a{
+  margin-right:9px;
+}
+
+.search-box {
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-box label {
+  margin: 0px;
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+.search-box label img {
+  width: 25px;
 }
