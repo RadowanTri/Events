@@ -275,6 +275,20 @@
     .gallery-content .custom-btn {
         font-size: 16px;
     }
+
+    .marathon .top-stories figure {
+        flex: auto;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .marathon .top-stories {
+        padding: 0px;
+        display: block;
+    }
+    .marathon .title {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width:320px) and (max-width: 768px) {}
@@ -317,6 +331,19 @@
         font-size: 20px;
     }
 
-
+    .marathon .top-stories figure img{
+        width: 100%;
+    }
+    .flex-2 {
+        display: block;
+    }
 }
 
+
+@media (max-width: 475px) {
+    .marahon-about{
+        display: block;
+    }
+    }
+
+}
