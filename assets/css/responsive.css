@@ -15,6 +15,10 @@
         display: none;
 
     }
+    .why-join-area.speakar-area .why-join-content {
+        margin-bottom: 15px;
+        height: auto;
+    }
 }
 
 
@@ -37,6 +41,12 @@
     .order-content .top-stories {
         flex-direction: column;
     }
+
+    /* details1 */
+    .contest-wrapper.pr-50 {
+        padding-right: 0px;
+    }
+
 
 }
 
@@ -268,7 +278,7 @@
 
     .gallery-content .gallery-title1,
     .gallery-grid .title {
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 500;
     }
 
@@ -288,6 +298,15 @@
     }
     .marathon .title {
         font-size: 18px;
+    }
+    .gallery-content br{
+        display: none;
+    }
+    .gallery-content {
+        position: absolute;
+        bottom: 2px;
+        padding: 10px;
+        z-index: 1;
     }
 }
 
@@ -337,11 +356,61 @@
     .flex-2 {
         display: block;
     }
+
+    /* index1 */
+    .single-text::before {
+        content: "";
+        display: none;
+    }
+    .timeline>li:not(.timeline-inverted) {
+        padding-right: 0px;
+    }
+    
 }
 
 
 @media (max-width: 475px) {
+     .pb-40 {
+         padding-bottom: 25px;
+     }
+
+     .pt-40 {
+         padding-top: 25px;
+     }
     .marahon-about{
         display: block;
+        padding-bottom: 7px;
     }
+    /* index */
+    .hero-area {
+        height: 35vh;
+    }
+    .timeline>li>.timeline-panel {
+        margin-bottom: 15px;
+    }
+    .timeline {
+        padding:0px 0px;
+    }
+  
+    section.ticket-area.position-relative.pt-40.pb-40 {
+        padding-bottom: 0px;
+    }
+    .why-join-area .stories-header-tab .nav-link {
+        font-size: 16px;
+    }
+    .why-join-area .stories-header-tab .nav-link.active {
+        font-size: 16px;
+    }
+    .why-join-area .stories-header-tab .nav-item {
+        margin-right: 10px;
+    }
+    .order-tabs {
+        padding: 10px 10px;
+    }
+    h2.gallery-title1 br {
+        display: none;
+    }
+
+
+
 }
